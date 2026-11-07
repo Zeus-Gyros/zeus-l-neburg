@@ -1749,6 +1749,48 @@ body.menu-open .action-bar {
   .hero__content .button-row .button {
     flex: 1 1 100%;
   }
+
+  /* Handy-Hero: ohne Goldzeile, Text weiter oben, Foto über die ganze Fläche und heller */
+  .hero .eyebrow {
+    display: none;
+  }
+
+  .hero__media {
+    top: 0;
+    bottom: 0;
+  }
+
+  .hero__media img {
+    object-position: 42% 50%;
+  }
+
+  .hero__shade {
+    background:
+      linear-gradient(to bottom, rgba(20, 18, 16, 0.6) 0, rgba(20, 18, 16, 0) 16%),
+      linear-gradient(to top, #141210 0, rgba(20, 18, 16, 0.78) 22%, rgba(20, 18, 16, 0.35) 55%, rgba(20, 18, 16, 0.1) 100%);
+  }
+
+  .hero__content {
+    padding-bottom: clamp(72px, 13svh, 130px);
+  }
+
+  .hero__content::before {
+    inset: -80px -20px 0;
+    background: radial-gradient(ellipse at 40% 55%, rgba(20, 18, 16, 0.55), rgba(20, 18, 16, 0) 70%);
+  }
+
+  .hero h1,
+  .hero__lead,
+  .hero__note {
+    text-shadow:
+      0 1px 2px rgba(10, 9, 8, 0.85),
+      0 2px 18px rgba(10, 9, 8, 0.75);
+  }
+
+  .hero__lead,
+  .hero__note {
+    color: var(--cream);
+  }
 }
 
 @media (min-width: 768px) {
