@@ -3,16 +3,6 @@ import { legal, restaurant } from "../data/restaurant";
 
 renderLegalPage({
   title: "Impressum",
-  intro: (
-    <p>
-      Entwurf. Die Angaben stammen aus dem{" "}
-      <a href={restaurant.portalImprintUrl} target="_blank" rel="noopener">
-        Impressum im Bestellportal Restablo
-        <span className="visually-hidden"> (öffnet in neuem Tab)</span>
-      </a>{" "}
-      (abgerufen am {legal.retrievedAt}) und müssen vom Betreiber bestätigt werden.
-    </p>
-  ),
   children: (
     <>
       <section>

@@ -34,6 +34,6 @@ export const legal = {
   businessName: "Zeus Gyros & Grill Restaurant",
   owner: "Rukiye Sobay",
   phoneDisplay: "04131-6050500",
-  email: "ercansobay@yahoo.de",
+  email: "zeusluneburg@gmail.com",
   retrievedAt: "04.11.2026",
 } as const;

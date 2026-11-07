@@ -32,7 +32,7 @@ Die Speisekarte zeigt die Preise im Restaurant. Quelle ist die gedruckte Karte m
 
 ## Vor einer Veröffentlichung zu klären
 
-1. **Impressum:** Angaben aus dem Portal-Impressum vom Betreiber bestätigen lassen. Rechtsform, Steuernummern, Register und inhaltlich verantwortliche Person ergänzen, soweit zutreffend. Die E-Mail-Adresse stammt aus dem Portal-Impressum.
+1. **Impressum:** Angaben aus dem Portal-Impressum vom Betreiber bestätigen lassen. Rechtsform, Steuernummern, Register und inhaltlich verantwortliche Person ergänzen, soweit zutreffend. Die E-Mail-Adresse hat der Auftraggeber vorgegeben (siehe unten).
 2. **Datenschutz:** Text vom Auftraggeber übernommen (06.11.2026), nennt Render als Hoster. Zu prüfen: ob die Seite tatsächlich bei Render läuft und der Auftragsverarbeitungsvertrag abgeschlossen ist. Die Formulierung in Abschnitt 6 („Soweit … keine … eingesetzt werden“) ist vorsichtig; die Website setzt tatsächlich keine Cookies und kein Tracking ein.
 3. **Rechtliche Prüfung** beider Seiten. Sie sind derzeit auf `noindex` gesetzt.
 4. **Name und Domain:** Das Portal schreibt „Zeus Gyros & Grill Restaurant“ und nennt im Impressum die Webseite www.zeus-lg.de, die vorgegebene Website ist zeus-lueneburg.de.
@@ -81,3 +81,7 @@ Alle Fotos stammen aus Wikimedia Commons oder Unsplash und liegen als optimierte
 Die Nennungen erscheinen auf der Seite `bildnachweis.html`, die im Footer verlinkt ist. Die Fotos unter CC BY-SA müssen in bearbeiteter Form unter derselben Lizenz stehen bleiben. Das Gyros-Foto beschreibt die Quelle nur als gewürztes Grillfleisch, „möglicherweise Gyros oder Schawarma“. Das Foto zu Zeus Spezial zeigt nicht dessen genaue Zusammenstellung und wurde so zugeschnitten, dass die Aufschrift eines fremden Betriebs auf den Spießen entfällt. Die Unsplash-Lizenz erlaubt die kostenlose, auch gewerbliche Nutzung ohne Namensnennung; der Name steht trotzdem im Bildnachweis.
 
 Schriften: Cormorant Garamond und Figtree (SIL Open Font License), lokal eingebunden über Fontsource. Die Steintextur, das Favicon, die Mäanderlinie und der Olivenzweig sind eigens für dieses Projekt erzeugt.
+
+## Kontakt-E-Mail
+
+Seit 07.11.2026 steht in Impressum und Datenschutz `zeusluneburg@gmail.com` (vom Auftraggeber vorgegeben). Das Restablo-Impressum nennt noch eine andere Adresse.
