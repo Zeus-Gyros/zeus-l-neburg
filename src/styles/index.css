@@ -1717,7 +1717,7 @@ input {
 
   /* Der Abstand wächst mit der Bildschirmhöhe, damit die Überschrift auch auf kleinen Handys unter der Kopfzeile bleibt */
   .hero__content .button-row {
-    margin-top: clamp(40px, calc(100svh - 600px), 300px);
+    margin-top: clamp(40px, calc(100svh - 560px), 340px);
   }
 
   .hero__media {
