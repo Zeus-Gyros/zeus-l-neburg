@@ -1,6 +1,6 @@
 import { Hero } from "./components/Hero";
 import { Kitchen } from "./components/Kitchen";
-import { ContactSection, MobileActionBar, OrderSection, RestaurantSection, SiteFooter } from "./components/Sections";
+import { ContactSection, OrderSection, RestaurantSection, SiteFooter } from "./components/Sections";
 import { SiteHeader } from "./components/SiteHeader";
 
 export function App() {
@@ -18,7 +18,6 @@ export function App() {
         <ContactSection />
       </main>
       <SiteFooter />
-      <MobileActionBar />
     </>
   );
 }

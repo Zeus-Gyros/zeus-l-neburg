@@ -157,14 +157,3 @@ export function SiteFooter() {
     </footer>
   );
 }
-
-export function MobileActionBar() {
-  return (
-    <div className="action-bar">
-      <a href={restaurant.orderUrl} target="_blank" rel="noopener">
-        Bestellen<span className="visually-hidden"> (öffnet in neuem Tab)</span>
-      </a>
-      <a href={restaurant.phone.href}>Anrufen</a>
-    </div>
-  );
-}

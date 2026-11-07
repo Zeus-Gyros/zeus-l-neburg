@@ -1,6 +1,6 @@
 import { StrictMode, type ReactNode } from "react";
 import { createRoot } from "react-dom/client";
-import { MobileActionBar, SiteFooter } from "./Sections";
+import { SiteFooter } from "./Sections";
 import { SiteHeader } from "./SiteHeader";
 import "../styles/index.css";
 
@@ -25,7 +25,6 @@ function LegalPage({ title, intro, children }: LegalPageProps) {
         </div>
       </main>
       <SiteFooter />
-      <MobileActionBar />
     </>
   );
 }

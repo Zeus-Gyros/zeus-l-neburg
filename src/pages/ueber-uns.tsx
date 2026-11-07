@@ -4,7 +4,7 @@ import { Button } from "../components/Button";
 import { Gallery } from "../components/Gallery";
 import { Meander } from "../components/Decor";
 import { Photo } from "../components/Photo";
-import { MobileActionBar, SiteFooter } from "../components/Sections";
+import { SiteFooter } from "../components/Sections";
 import { SiteHeader } from "../components/SiteHeader";
 import { about } from "../data/about";
 import { images } from "../data/images";
@@ -85,6 +85,5 @@ createRoot(document.getElementById("root")!).render(
       </section>
     </main>
     <SiteFooter />
-    <MobileActionBar />
   </StrictMode>,
 );
