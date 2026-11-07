@@ -1704,14 +1704,20 @@ input {
     flex: 1 1 100%;
   }
 
-  /* Handy-Hero: ohne Goldzeile und Begleittext, Text weiter oben, Foto über die ganze Fläche und heller */
-  .hero .eyebrow,
-  .hero__lead {
+  /* Handy-Hero: ohne Goldzeile, Text oben, Buttons unten, Foto über die ganze Fläche und heller */
+  .hero .eyebrow {
     display: none;
   }
 
+  .hero .hero__lead {
+    margin-block: 14px 0;
+    font-size: 0.9375rem;
+    line-height: 1.55;
+  }
+
+  /* Der Abstand wächst mit der Bildschirmhöhe, damit die Überschrift auch auf kleinen Handys unter der Kopfzeile bleibt */
   .hero__content .button-row {
-    margin-top: clamp(140px, 30svh, 300px);
+    margin-top: clamp(40px, calc(100svh - 600px), 300px);
   }
 
   .hero__media {
