@@ -158,6 +158,7 @@ export function MenuSection() {
           <div className="menu__hints">
             <p className="menu__hint">
               <strong>Preise im Restaurant.</strong> Beim Bestellen über Restablo sind die Preise {onlineSurchargePercent} % höher.
+              Für Anrufer gelten die normalen Restaurantpreise zum Abholen.
             </p>
             <p className="menu__hint">
               <strong>Tisch reservieren nur per Anruf.</strong>
