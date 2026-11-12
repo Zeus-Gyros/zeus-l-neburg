@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://xn--zeus-lneburg-ilb.de/sitemap.xml

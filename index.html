@@ -3,13 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <title>Zeus Gyros &amp; Grill Lüneburg | Griechisches Restaurant, Speisekarte &amp; Bestellung</title>
+    <title>Zeus Lüneburg | Gyros &amp; Grill, griechisches Restaurant</title>
     <meta
       name="description"
       content="Zeus Gyros und Grill Restaurant in der Bleckeder Landstraße 45, Lüneburg: Gyros, griechische Grillspezialitäten und mediterrane Gerichte. Speisekarte ansehen und online bestellen."
     />
     <meta name="theme-color" content="#141210" />
+    <link rel="canonical" href="https://xn--zeus-lneburg-ilb.de/" />
     <meta property="og:title" content="Zeus Gyros &amp; Grill Lüneburg" />
+    <meta property="og:url" content="https://xn--zeus-lneburg-ilb.de/" />
+    <meta property="og:image" content="https://xn--zeus-lneburg-ilb.de/og-bild.jpg" />
+    <meta property="og:site_name" content="Zeus Gyros &amp; Grill Lüneburg" />
     <meta property="og:description" content="Gyros, griechische Grillspezialitäten und mediterrane Gerichte in Lüneburg." />
     <meta property="og:type" content="restaurant" />
     <meta property="og:locale" content="de_DE" />
@@ -29,17 +33,38 @@
       {
         "@context": "https://schema.org",
         "@type": "Restaurant",
-        "name": "Zeus Gyros und Grill Restaurant",
-        "servesCuisine": "Griechisch",
+        "@id": "https://xn--zeus-lneburg-ilb.de/#restaurant",
+        "name": "Zeus Gyros & Grill Restaurant",
+        "alternateName": ["Zeus Lüneburg", "Zeus Gyros und Grill"],
+        "url": "https://xn--zeus-lneburg-ilb.de/",
+        "image": "https://xn--zeus-lneburg-ilb.de/og-bild.jpg",
+        "logo": "https://xn--zeus-lneburg-ilb.de/images/zeus-logo.svg",
+        "servesCuisine": ["Griechisch", "Gyros", "Grill"],
         "telephone": "+4941316050500",
-        "openingHours": "Tu-Su 11:00-22:00",
-        "menu": "https://www.restablo.de/restaurant/zeus-gyros-grill-restaurant-lueneburg.html",
+        "email": "zeusluneburg@gmail.com",
+        "priceRange": "€€",
+        "acceptsReservations": "True",
+        "hasMenu": "https://xn--zeus-lneburg-ilb.de/speisekarte.html",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Bleckeder Landstraße 45",
           "postalCode": "21337",
           "addressLocality": "Lüneburg",
+          "addressRegion": "Niedersachsen",
           "addressCountry": "DE"
+        },
+        "geo": { "@type": "GeoCoordinates", "latitude": 53.2511361, "longitude": 10.4283152 },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+            "opens": "11:00",
+            "closes": "22:00"
+          }
+        ],
+        "potentialAction": {
+          "@type": "OrderAction",
+          "target": "https://www.restablo.de/restaurant/zeus-gyros-grill-restaurant-lueneburg.html"
         }
       }
     </script>

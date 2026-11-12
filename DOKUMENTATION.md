@@ -85,3 +85,7 @@ Schriften: Cormorant Garamond und Figtree (SIL Open Font License), lokal eingebu
 ## Kontakt-E-Mail
 
 Seit 07.11.2026 steht in Impressum und Datenschutz `zeusluneburg@gmail.com` (vom Auftraggeber vorgegeben). Das Restablo-Impressum nennt noch eine andere Adresse.
+
+## Suchmaschinen
+
+Hauptadresse ist https://zeus-lüneburg.de (technisch `xn--zeus-lneburg-ilb.de`). `public/robots.txt` und `public/sitemap.xml` verweisen darauf, Startseite, Speisekarte und Über uns tragen einen Canonical-Link, damit die Render-Adresse nicht doppelt gezählt wird. Die Restaurantdaten für Google stehen als strukturierte Daten in `index.html`. Ändern sich Öffnungszeiten, Telefon oder Adresse, auch dort anpassen. Sitemap bei neuen Seiten ergänzen.
